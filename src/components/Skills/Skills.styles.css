@@ -15,7 +15,7 @@
 .skills-slider {
   display: flex;
   gap: 60px;
-  animation: moveSkills 15s linear infinite;
+  animation: moveSkills 10s linear infinite;
 }
 
 .skill-item img {
