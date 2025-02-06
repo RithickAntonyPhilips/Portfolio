@@ -1,0 +1,79 @@
+#certifications {
+  padding: 20px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#certifications h2 {
+  margin-bottom: 20px;
+}
+
+.certifications-container {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.cert-card {
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.cert-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.cert-card img {
+  width: 100%;
+  max-width: 290px;
+  height: 200px;
+  border: 1px #cccccc solid;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cert-card img:hover {
+  transform: scale(1.04);
+}
+
+.cert-card button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cert-card button:hover {
+  background-color: #0056b3;
+}
+
+[data-aos="fade-up"], 
+[data-aos="fade-up-left"], 
+[data-aos="fade-up-right"] {
+  opacity: 0;
+  transition: opacity 1.5s ease-out;
+}
+
+[data-aos="fade-up"].aos-animate, 
+[data-aos="fade-up-left"].aos-animate, 
+[data-aos="fade-up-right"].aos-animate {
+  opacity: 1;
+}

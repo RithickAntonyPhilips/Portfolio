@@ -1,0 +1,51 @@
+#internships {
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+  }
+  
+  #internships h2 {
+    margin-bottom: 20px;
+  }
+  
+  .internships-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .internship-card {
+    width: 300px;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .internship-card h3 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .internship-card p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
+  .internship-card button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .internship-card button:hover {
+    background-color: #0056b3;
+  }
+  
