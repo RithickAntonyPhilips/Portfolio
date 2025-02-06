@@ -1,13 +1,14 @@
 header {
   background-color: #692525;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 .header-content {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -17,7 +18,7 @@ header h1 {
 
 header p {
   font-size: 1.2em;
-  margin: 5px 0;
+  margin: 1px 0;
 }
 
 nav {

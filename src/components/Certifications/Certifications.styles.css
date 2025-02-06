@@ -27,7 +27,7 @@
   margin: 15px;
   text-align: center;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 25px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
@@ -43,7 +43,7 @@
   max-width: 290px;
   height: 200px;
   border: 1px #cccccc solid;
-  border-radius: 8px;
+  border-radius: 15px;
   margin-bottom: 10px;
   transition: transform 0.3s ease-in-out;
 }

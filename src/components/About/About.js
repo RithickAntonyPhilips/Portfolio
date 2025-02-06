@@ -23,8 +23,8 @@ const About = () => {
       <div data-aos="fade-up">
         <p>
           Hi, I'm Rithick Antony Philips C S<br />
-          Highly organized and proactive student with excellent communication skills and a strong work
-          ethic. I am an energetic fresher who is a self-starter, eager to learn new skills, and I am currently looking forward to working in a creative and competitive environment.
+          an ambitious and detail-oriented student with excellent analytical and problem-solving abilities. 
+          I am eager to work in a competitive environment where I can grow, contribute, and refine my skills.
         </p>
       </div>
     </section>
